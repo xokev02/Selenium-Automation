@@ -1,0 +1,9 @@
+"//how to connect json file to a python file?"
+
+import json
+
+with open('strings.json') as f:
+    d = json.load(f)
+    print(d)
+
+"//how to use looping in selenium?" 
